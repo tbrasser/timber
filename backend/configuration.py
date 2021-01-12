@@ -18,7 +18,7 @@ state = os.getenv('TIMBER_STATE', 'inmemory')
 
 # Version
 # This will be shown on the homepage.
-version = os.getenv('TIMBER_VERSION', '1.5')
+version = os.getenv('TIMBER_VERSION', '1.6')
 
 liveness_probe_text = 'enabled and reachable at `/probe/liveness`'
 readiness_probe_text = 'enabled and reachable at `/probe/readiness`'
